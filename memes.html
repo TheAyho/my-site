@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мемы — Мой сайт</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="facts.html">Факты</a>
+    <a href="memes.html" class="active">Мемы</a>
+    <a href="quotes.html">Цитаты</a>
+  </nav>
+
+  <div class="center">
+
+    <div class="page-header">
+      <span class="badge">Мем-коллекция</span>
+      <h1>Мои любимые мемы</h1>
+      <h2>Без этого не выжить в 2026-м</h2>
+    </div>
+
+    <section>
+      <div class="meme-grid">
+
+        <div class="meme-card">
+          <img src="images/mem1.jpg" alt="Sad cat" />
+          <div class="meme-label">Грустный котик</div>
+        </div>
+
+        <div class="meme-card">
+          <img src="images/mem2.jpg" alt="What?" />
+          <div class="meme-label">Загрузка кота</div>
+        </div>
+
+        <div class="meme-card">
+          <img src="images/mem3.jpg" alt="wuw" />
+          <div class="meme-label">ЪуЪ</div>
+        </div>
+
+        <div class="meme-card">
+          <img src="images/mem4.jpg" alt="Hamster" />
+          <div class="meme-label">Голодный хомяк</div>
+        </div>
+
+        <div class="meme-card">
+          <img src="images/mem5.jpg" alt="Nyan-cat" onmouseover="document.getElementById('Ncat').play()"
+    onmouseout="document.getElementById('Ncat').pause(); document.getElementById('Ncat').currentTime = 0;">
+            <audio id="Ncat" src="nyan-cat-nyan-cat-theme.mp3"></audio>
+          <div class="meme-label">Nyan cat (кликни и наведи на меня)</div>
+        </div>
+          
+          <div class="meme-card">
+            <img src="images/mem6.jpeg" alt="Wolf" onmouseover="document.getElementById('WolfAudio').play()"
+    onmouseout="document.getElementById('WolfAudio').pause(); document.getElementById('WolfAudio').currentTime = 0;">
+    <audio id="WolfAudio" src="luchshe-imet-druga_xCZYGQu.mp3"></audio>
+            <div class="meme-label">Волк для цитат(наведи на меня)</div>
+          </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2026 Ксения — Мой личный сайт
+  </footer>
+
+</body>
+</html>
